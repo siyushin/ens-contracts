@@ -3,10 +3,11 @@ pragma solidity >=0.8.4;
 import "./ENS.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "../root/Controllable.sol";
+import "../resolvers/profiles/NameResolver.sol";
 
-abstract contract NameResolver {
-    function setName(bytes32 node, string memory name) public virtual;
-}
+// abstract contract NameResolver {
+//     function setName(bytes32 node, string memory name) public virtual;
+// }
 
 bytes32 constant lookup = 0x3031323334353637383961626364656600000000000000000000000000000000;
 
