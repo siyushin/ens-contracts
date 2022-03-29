@@ -1,8 +1,9 @@
 pragma solidity ^0.8.4;
 pragma experimental ABIEncoderV2;
 
-import "../root/Ownable.sol";
+// import "../root/Ownable.sol";
 import "./PublicSuffixList.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract SimplePublicSuffixList is PublicSuffixList, Ownable {
     mapping(bytes=>bool) suffixes;
