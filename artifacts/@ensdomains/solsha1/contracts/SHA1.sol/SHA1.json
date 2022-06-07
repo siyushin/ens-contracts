@@ -1,0 +1,24 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "SHA1",
+  "sourceName": "@ensdomains/solsha1/contracts/SHA1.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bytes32",
+          "name": "x",
+          "type": "bytes32"
+        }
+      ],
+      "name": "Debug",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220106799f7ec72f8117213a73d0083876c9721a2c4fcf044f3963fc22ab16a801b64736f6c63430008040033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220106799f7ec72f8117213a73d0083876c9721a2c4fcf044f3963fc22ab16a801b64736f6c63430008040033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
